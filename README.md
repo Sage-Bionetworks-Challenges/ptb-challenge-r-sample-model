@@ -1,10 +1,13 @@
 # Preterm Birth Prediction - Microbiome: Sample R Model
 
 ## Overview
-This repository contains a sample Dockerfile and related files to build a model for the
+This repository contains a sample model for Task 1 of the 
 [Preterm Birth Prediction - Microbiome DREAM Challenge](https://www.synapse.org/preterm_birth_microbiome).
 The goal of this DREAM Challenge is to develop models that take as input vaginal microbiome
 data and outputs the probability preterm and early preterm birth.
+
+## Description of the model
+This model uses phylotype data and a random forest to run its predictions.
 
 ## Build the model
 1) Run `fit_model.R` to generate and save your fitted model
@@ -41,3 +44,8 @@ docker run \
 5) Use `docker push` to push the model up to your project on Synapse, then submit it to the challenge.
 
 For more information on how to submit, refer to [Step 6 of the Submission Tutorial](https://www.synapse.org/#!Synapse:syn26133770/wiki/618028).
+
+## Credit
+
+[Adi Tarca](https://engineering.wayne.edu/profile/ay6621)
+_Wayne State University_
